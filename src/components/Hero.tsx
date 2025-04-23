@@ -16,12 +16,13 @@ const Hero = () => {
     >
       {/* Background texture */}
       <div 
-        className="https://d1fvq72qdoyrow.cloudfront.net/6808d8c246ce9b0012c17518/e691a268-d8d2-40f4-b739-ba8d02add2e8---design-sem-nome--3-.png?Expires=1745499235&Key-Pair-Id=K30Q3TNPY13FGE&Signature=Wykc9A9Z5iOPVIju~DlNIS-YEU3T-oTKhtVTluXmPiPSVODeA34515hxuh-v7iL-hu0WGHsgx~9ESKPb3vnGWyuuKNmtvKB81BfcSuPwIRUmXuy~rpb4AisEABNNn-fEGD5-Sv2bL39VtGYDv7bCwlO~Ciu~KvzqQ1GNuSjIjyWdrh1bIFf-3g2psUH4VcbS-IZDQyK7ad13P89E8g6Dd2KYqOBj-srKetQUGU8McRjynwSJN~~np3cYXyaA-Y7N1QwOEoFFM2~xAzK~InbibpIV6cIVyPF7evlZFmOq8SKrqgd8VqX6QsSD4SAomvhfT3VEXoEYY2O~bF1IhxURoQ__"
+        className="absolute inset-0 bg-[url('https://d1fvq72qdoyrow.cloudfront.net/6808d8c246ce9b0012c17518/e691a268-d8d2-40f4-b739-ba8d02add2e8---design-sem-nome--3-.png?Expires=1745499235&Key-Pair-Id=K30Q3TNPY13FGE&Signature=Wykc9A9Z5iOPVIju~DlNIS-YEU3T-oTKhtVTluXmPiPSVODeA34515hxuh-v7iL-hu0WGHsgx~9ESKPb3vnGWyuuKNmtvKB81BfcSuPwIRUmXuy~rpb4AisEABNNn-fEGD5-Sv2bL39VtGYDv7bCwlO~Ciu~KvzqQ1GNuSjIjyWdrh1bIFf-3g2psUH4VcbS-IZDQyK7ad13P89E8g6Dd2KYqOBj-srKetQUGU8McRjynwSJN~~np3cYXyaA-Y7N1QwOEoFFM2~xAzK~InbibpIV6cIVyPF7evlZFmOq8SKrqgd8VqX6QsSD4SAomvhfT3VEXoEYY2O~bF1IhxURoQ__')] 
+        bg-cover bg-center opacity-20 mix-blend-overlay"
       ></div>
       
       <div className="container mx-auto px-4 z-10 pt-16">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 text-center md:text-left">
+        <div className="flex flex-col-reverse md:flex-row items-center">
+          <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-2">
               <span className="block text-yellow-300 italic">Montini</span>
               <span className="block mt-2">MINOXIDIL KIRKLAND</span>
@@ -50,8 +51,8 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-            <div className="relative w-96 md:w-[600px] h-96 md:h-[600px] transform hover:scale-105 transition duration-500 ease-in-out">
+          <div className="md:w-1/2 flex justify-center">
+            <div className="relative w-[320px] md:w-[600px] h-[320px] md:h-[600px] transform hover:scale-105 transition duration-500 ease-in-out">
               <img 
                 src="https://d1fvq72qdoyrow.cloudfront.net/6808d8c246ce9b0012c17518/791fb958-45dd-42ea-80d7-7dbebf7538ba---design-sem-nome--2-.png?Expires=1745498221&Key-Pair-Id=K30Q3TNPY13FGE&Signature=K5yCghl6QjdfY4Lq9NGXQucb2a5ArbRSdnYaatOAqLP2aLP27WGSIV9x-V-NsysU6sV-NmpT2iyXppRdOrjFiKug-BTeYCOzxotkaz-e8Y6pPl2oUcKvPp3Io1I0YgU8-S6cBd0iYLPk09itHZjBUrglzabPoBNmybORzTdWlrhZ10tlQX8-RUGWEZtZTgCkXHx8Chg1-WvB1xfXpS-cTzJnLttqDVK6~kBnM6KsG5Wjqfc3s5XObMCWeU-pXHs8vA6r7tLaOVTeZD6SFduYg4EPmzURr7o5in2gyzCgGFZZ7o1F4imwOuHL0CJ0-~O6nnKo3AyNr6K2-OtZrFV0lw__" 
                 alt="Minoxidil Kirkland" 
